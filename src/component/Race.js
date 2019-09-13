@@ -31,18 +31,12 @@ const Race = props => {
   return (
     <div>
       <h1>Race</h1>
-      <h2>{(rollOne.rolled && rollTwo.rolled) ? raceDictionary[totalRoll] : 'Undecided'}</h2>
-      <h4>{rollOne.value}</h4>
-      {rollOne.rolled ?
-        <button disabled>Roll One</button>
+      <h2>{(rollOne.rolled && rollTwo.rolled) ? raceDictionary[totalRoll] : rollOne.value}</h2>
+      {
+        !rollOne.rolled ?
+        <button onClick={handleRollOne}>Roll</button>
         :
-        <button onClick={handleRollOne}>Roll One</button>
-      }
-      <h4>{rollTwo.value}</h4>
-      {rollTwo.rolled ?
-        <button disabled>Roll Two</button>
-        :
-        <button onClick={handleRollTwo}>Roll Two</button>
+        <button disabled={rollTwo.rolled ? true : false} onClick={handleRollTwo}>Roll</button>
       }
     </div>
   )
