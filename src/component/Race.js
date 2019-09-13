@@ -26,18 +26,29 @@ const Race = props => {
     });
   }
 
+  const handleReset = () => {
+    let initialState = {
+      value: 0,
+      rolled: false
+    }
+
+    setRollOne(initialState)
+    setRollTwo(initialState)
+  }
+
   let totalRoll = rollOne.value + rollTwo.value
 
   return (
     <div>
       <h1>Race</h1>
-      <h2>{(rollOne.rolled && rollTwo.rolled) ? raceDictionary[totalRoll] : rollOne.value}</h2>
+      <h2>{(rollOne.rolled && rollTwo.rolled) ? `${rollOne.value} + ${rollTwo.value}: ${raceDictionary[totalRoll]}` : rollOne.value}</h2>
       {
         !rollOne.rolled ?
         <button onClick={handleRollOne}>Roll</button>
         :
         <button disabled={rollTwo.rolled ? true : false} onClick={handleRollTwo}>Roll</button>
       }
+      <button disabled={(rollOne.rolled && rollTwo.rolled) ? false : true} onClick={handleReset}>Reset</button>
     </div>
   )
 }
