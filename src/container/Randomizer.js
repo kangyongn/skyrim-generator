@@ -1,5 +1,5 @@
 import React from 'react';
-import Race from './Race';
+import Race from '../component/Race';
 
 const Randomizer = props => {
   return (
