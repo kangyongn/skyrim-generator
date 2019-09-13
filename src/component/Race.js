@@ -1,8 +1,14 @@
 import React, {useState} from 'react';
 
 const Race = props => {
-  const [rollOne, setRollOne] = useState(0);
-  const [rollTwo, setRollTwo] = useState(0);
+  const [rollOne, setRollOne] = useState({
+    value: 0,
+    rolled: false
+  });
+  const [rollTwo, setRollTwo] = useState({
+    value: 0,
+    rolled: false
+  });
 
   const raceDictionary = {
     1: 'Not Possible',
@@ -20,22 +26,37 @@ const Race = props => {
   }
 
   const handleRollOne = () => {
-    setRollOne(Math.floor(Math.random() * 6) + 1);
+    setRollOne({
+      value: Math.floor(Math.random() * 6) + 1,
+      rolled: true
+    });
   }
 
   const handleRollTwo = () => {
-    setRollTwo(Math.floor(Math.random() * 6) + 1);
+    setRollTwo({
+      value: Math.floor(Math.random() * 6) + 1,
+      rolled: true,
+    });
   }
 
-  let totalRoll = rollOne + rollTwo
+  let totalRoll = rollOne.value + rollTwo.value
 
   return (
     <div>
-      <h1>Race: {totalRoll}: {raceDictionary[totalRoll]} </h1>
-      <h2>{rollOne}</h2>
-      <button onClick={handleRollOne}>Roll One</button>
-      <h2>{rollTwo}</h2>
-      <button onClick={handleRollTwo}>Roll Two</button>
+      <h1>Race</h1>
+      <h2>{(rollOne.rolled && rollTwo.rolled) ? raceDictionary[totalRoll] : 'Undecided'}</h2>
+      <h4>{rollOne.value}</h4>
+      {rollOne.rolled ?
+        <button disabled>Roll One</button>
+        :
+        <button onClick={handleRollOne}>Roll One</button>
+      }
+      <h4>{rollTwo.value}</h4>
+      {rollTwo.rolled ?
+        <button disabled>Roll Two</button>
+        :
+        <button onClick={handleRollTwo}>Roll Two</button>
+      }
     </div>
   )
 }
