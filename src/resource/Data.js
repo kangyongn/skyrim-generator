@@ -42,3 +42,12 @@ export const virtueDictionary = {
   5: ['Diligence', 'Does not steal or loot the dead; has a non-violent, honorable occupation.'],
   6: ['Kindness', 'Does not harm or steal from friends or neighborsl only harms "evil" NPCs.']
 }
+
+export const flawDictionary = {
+  1: ['Pride', 'Selects boastful speech options, obsessed with achieving 100 in a skill by any means necessary(crime, exploits, etc).'],
+  2: ['Greed', 'Hoards septims and one or two other miscellaneous items; has a goal of a certain level of wealth.'],
+  3: ['Lust', 'Easily seduced by Daedra and other bad influences of the opposite sex.'],
+  4: ['Gluttony', 'Uses drugs, good, and alcohol excessively.'],
+  5: ['Wrath', 'Quick tempered and always resorts to violence; may kill or assault NPCs for petty reason.'],
+  6: ['Envy', 'Obsessed with gaining the same power or status of an existing NPC(guildmaster, thane, Jarl, etc).']
+}
