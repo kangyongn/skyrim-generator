@@ -6,8 +6,6 @@ const Talent = props => {
   const [talents, setTalents] = useState([])
 
   const handleRoll = () => {
-    console.log('working')
-    console.log(talents)
     let newTalent = Math.floor(Math.random() * 18) + 1
     if(!talents.includes(newTalent)) {
       setTalents([...talents, newTalent])
