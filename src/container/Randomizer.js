@@ -4,6 +4,7 @@ import Talent from '../component/Talent';
 import Virtue from '../component/Virtue';
 import Flaw from '../component/Flaw';
 import Occupation from '../component/Occupation';
+import Location from '../component/Location';
 
 const Randomizer = props => {
   return (
@@ -13,6 +14,7 @@ const Randomizer = props => {
       <Virtue/>
       <Flaw/>
       <Occupation/>
+      <Location />
     </div>
   )
 }

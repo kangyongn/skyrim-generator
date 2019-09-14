@@ -66,3 +66,18 @@ export const occupationDictionary = {
   11: 'Soldier',
   12: 'Thief'
 }
+
+export const locationDictionary = {
+  1: 'Not Possible',
+  2: 'Falkreath',
+  3: 'Ivarstead',
+  4: 'Karthwasten',
+  5: 'Kynesgrove',
+  6: 'Morthal',
+  7: 'Markarth',
+  8: 'Riften',
+  9: 'Solitude',
+  10: 'Anywhere You Want',
+  11: 'Windhelm',
+  12: "Other(Darkwater Crossing, Rorikstead, Shot's Stone, or Stonehills)"
+}
