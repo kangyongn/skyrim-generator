@@ -10,7 +10,7 @@ export const raceDictionary = {
   9: 'Khajit',
   10: 'Nord',
   11: 'Orc',
-  12: 'Redguard'
+  12: 'Redguard',
 }
 
 export const talentDictionary = {
@@ -31,7 +31,7 @@ export const talentDictionary = {
   15: 'Light Armor',
   16: 'Archery',
   17: 'Pickpocket',
-  18: 'Sneak'
+  18: 'Sneak',
 }
 
 export const virtueDictionary = {
@@ -40,7 +40,7 @@ export const virtueDictionary = {
   3: ['Patience', 'Attempts to solve problems diplomatically via speechcraft or calming spells.'],
   4: ['Temperance', 'Does not use drugs(Skooma, Moon Sugar, Sleeping Tree Sap); eats and drinks in moderation.'],
   5: ['Diligence', 'Does not steal or loot the dead; has a non-violent, honorable occupation.'],
-  6: ['Kindness', 'Does not harm or steal from friends or neighborsl only harms "evil" NPCs.']
+  6: ['Kindness', 'Does not harm or steal from friends or neighborsl only harms "evil" NPCs.'],
 }
 
 export const flawDictionary = {
@@ -49,7 +49,7 @@ export const flawDictionary = {
   3: ['Lust', 'Easily seduced by Daedra and other bad influences of the opposite sex.'],
   4: ['Gluttony', 'Uses drugs, good, and alcohol excessively.'],
   5: ['Wrath', 'Quick tempered and always resorts to violence; may kill or assault NPCs for petty reason.'],
-  6: ['Envy', 'Obsessed with gaining the same power or status of an existing NPC(guildmaster, thane, Jarl, etc).']
+  6: ['Envy', 'Obsessed with gaining the same power or status of an existing NPC(guildmaster, thane, Jarl, etc).'],
 }
 
 export const occupationDictionary = {
@@ -64,7 +64,7 @@ export const occupationDictionary = {
   9: 'Merchant',
   10: 'Miner',
   11: 'Soldier',
-  12: 'Thief'
+  12: 'Thief',
 }
 
 export const locationDictionary = {
@@ -79,7 +79,7 @@ export const locationDictionary = {
   9: 'Solitude',
   10: 'Anywhere You Want',
   11: 'Windhelm',
-  12: "Other(Darkwater Crossing, Rorikstead, Shot's Stone, or Stonehills)"
+  12: "Other(Darkwater Crossing, Rorikstead, Shot's Stone, or Stonehills)",
 }
 
 export const interestDictionary = {
@@ -95,4 +95,19 @@ export const interestDictionary = {
   10: ['Moutain Climbing', "Obsessed with climbing Skyrim's highest mountains."],
   11: ['Politics', "Interested in people's opinions about the Empire, the civil war, and political figures in Skyrim."],
   12: ['Theology', 'Studies Aedric and Daedric religions.'],
+}
+
+export const motivationDictionary = {
+  1: ['Not Possible'],
+  2: ['Research', 'You cam to Skyrim to learn about a specific topic unique to the region.'],
+  3: ['Mystery', 'You are looking for clues about the sudden death of a friend or family member.'],
+  4: ['Vegeance', 'You crossed the border to find and kill the person who murdered a friend or family member.'],
+  5: ['Family Heirloom', 'You are searching for a weapon or piece of jewlery that once belonged to your family.'],
+  6: ['Exile', 'You were case out of your home region due to a crime or allegation of a crime.'],
+  7: ['Redemption', 'You are trying to right a wrong you commited in the past.'],
+  8: ['Recovery', 'You suffered from a debilitating disease or injury that caused your skills to diminish. You came to Skyrim to train yourself back to strength.'],
+  9: ['War', 'You came to Skyrim specifically to join the Stormcloaks or the Empire.'],
+  10: ['Love', 'You are trying to locate a lost love, who could be alive and well or long dead.'],
+  11: ['Pilgrimage', 'You came to see the shrines, the temples, the Gildergreen, or to collect Daedric artifacts.'],
+  12: ['Weath & Power', 'You are seeking power(Thanehood, guild leadership, etc) and/or money(jewels, houses, gold).'],
 }
