@@ -51,3 +51,18 @@ export const flawDictionary = {
   5: ['Wrath', 'Quick tempered and always resorts to violence; may kill or assault NPCs for petty reason.'],
   6: ['Envy', 'Obsessed with gaining the same power or status of an existing NPC(guildmaster, thane, Jarl, etc).']
 }
+
+export const occupationDictionary = {
+  1: 'Not Possible',
+  2: 'Assassin',
+  3: 'Alchemist',
+  4: 'Blacksmith',
+  5: 'Chef',
+  6: 'Farmer',
+  7: 'Fisherman',
+  8: 'Hunter',
+  9: 'Merchant',
+  10: 'Miner',
+  11: 'Soldier',
+  12: 'Thief'
+}
