@@ -81,3 +81,18 @@ export const locationDictionary = {
   11: 'Windhelm',
   12: "Other(Darkwater Crossing, Rorikstead, Shot's Stone, or Stonehills)"
 }
+
+export const interestDictionary = {
+  1: ['Not Possible'],
+  2: ['Agriculture', 'Learns from farmers and alchemists; collects plants and fungi for alchemy; interested in adding a garden to your home.'],
+  3: ['Architecture', 'Studies the structural design of buildings, forts, houses, keeps, and ruins. May be obsessed with Dwarven or Nordic Ruins.'],
+  4: ['Beastiary', "Collects Herbane's Beastiary books and studies the habits and dwellings of Skyrim's creatures."],
+  5: ['Barter & Economics', 'Worships Zenithar, seeks/makes haggling potions, imposes rules and restrictions on what can be traded with merchants.'],
+  6: ['Culinary Arts', 'Samples and rates the food and drinks at various inns. Invents new recipes. Plans lavish meals that incoprporate alchemy ingredients(venison smothered in troll fat, snowberry jam, etc).'],
+  7: ['Fitness & Exercise', 'Starts each day with a morning sprint, works out at sawmills (lifting logs, chopping wood), swims regularly.'],
+  8: ['History', 'Collects books on history and takes on quests pertaining to historical events.'],
+  9: ['Horseback Riding', 'Takes horseback rides at sunrise or sunset when relaxing in a town or village.'],
+  10: ['Moutain Climbing', "Obsessed with climbing Skyrim's highest mountains."],
+  11: ['Politics', "Interested in people's opinions about the Empire, the civil war, and political figures in Skyrim."],
+  12: ['Theology', 'Studies Aedric and Daedric religions.'],
+}
