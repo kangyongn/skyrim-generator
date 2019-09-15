@@ -111,3 +111,15 @@ export const motivationDictionary = {
   11: ['Pilgrimage', 'You came to see the shrines, the temples, the Gildergreen, or to collect Daedric artifacts.'],
   12: ['Weath & Power', 'You are seeking power(Thanehood, guild leadership, etc) and/or money(jewels, houses, gold).'],
 }
+
+export const ethicDictionary = {
+  1: ['Chaotic Good', ['Seeks to aid others and protect them from harm', ' Values freedom and individual choice.', 'Is not bound by promise made, but does not deceive without reason.', 'Distrust authority.', 'Is loyal to friends and good teammates, but not necessarily to their methods.']],
+  2: ['Neutral Good', ['Seeks to aid others and protect them from harm.', 'Is not concerned about honor as much as virtue.', 'Is not deceptive, but might break promises if circumstances change.', 'Accepts benevolent authority.', 'Is loyal to friends and good teammates.']],
+  3: ['Lawful Good', ['Seeks to aid others and protect them from harm.', 'Values just laws and self-dicipline.', 'Is honest and honors promises made.', 'Respects legitimate authority.', 'Is loyal to friends and teammates.']],
+  4: ['Chaotic Neutral', ['Tends to let others fend for themselves.', 'Values freedom.', 'Is not bound by promises made.', 'Rejects authority.', 'Is loyal only to oneself.']],
+  5: ['True Neutral', ['May treat others well or poorly as circumstances dictate.', 'Neither values nor disregards honor.', 'Is usually not habitually deceptive, but may break promises if circumstances change.', 'May work with or against authority.', 'May be loyal or faithless, depending on the character and circumstances.']],
+  6: ['Lawful Neutral', ['May punish the guilty and reward the innocent.', 'Values law, order, and self-discipline.', 'Will keep promises if possible.', 'Respects authority.', 'Is loyal to teammates.']],
+  7: ['Chaotic Evil', ['Has no qualms about hurting or killing anyone; some even kill innocent for fun.', 'Rejects honor and self-discipline as weakness.', "Will say anything to accomplish goals; keeping one's word is done only when opportune.", "Accepts another's authority only when forced.", 'Will betray friends and teammates to further selfish goals.']],
+  8: ['Neutral Evil', ['Has no qualms about hurting or killing anyone.', 'Places no value on honor.', 'Might keep promises to allies, but does not feel bound to do so.', "Might accept another's authority in name only.", 'May betray friends to advance a cause or to benefit themself.']],
+  9: ['Lawful Evil', ['Has no qualms about hurting or killing anyone, but may prefer to do so indirectly.' , 'Values consistency and reliability, particularly when they can be used.', 'Prefers to not outright lie; deceit comes when others draw inferences beyond what is explicitly said.', "Accepts another's authority until it can be usurped.", 'Is outwardly loayal to teammates unless (or until) betrayal can be justified.']],
+}

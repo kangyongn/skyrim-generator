@@ -8,6 +8,7 @@ import Occupation from '../component/Occupation';
 import Location from '../component/Location';
 import Interest from '../component/Interest';
 import Motivation from '../component/Motivation';
+import Ethic from '../component/Ethic';
 
 const Randomizer = props => {
   return (
@@ -20,6 +21,7 @@ const Randomizer = props => {
       <Location/>
       <Interest/>
       <Motivation/>
+      <Ethic/>
     </div>
   )
 }
